@@ -1,0 +1,235 @@
+/* ==============================
+   🌐 Global Styles
+=================================*/
+
+/* General Body and Fonts */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* light gray */
+  color: #1f2937; /* dark slate */
+  margin: 0;
+  padding: 0;
+  padding-top: 70px; /* navbar space fix */
+  line-height: 1.6;
+}
+
+/* ==============================
+   🔝 Navbar
+=================================*/
+.navbar {
+  background-color: #080c2a !important;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1050;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3b82f6 !important; /* blue-500 */
+}
+
+/* ==============================
+   🔘 Buttons
+=================================*/
+.btn-primary {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  color: #1d4ed8;
+  border-color: #1d4ed8;
+  transition: all 0.3s ease;
+}
+.btn-outline-primary:hover {
+  background-color: #1d4ed8;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ==============================
+   👣 Footer
+=================================*/
+.footer {
+  background-color: #080c2a;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* ==============================
+   🃏 Cards
+=================================*/
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.card-title {
+  font-weight: 700;
+  color: #111827;
+}
+.card-text {
+  color: #6b7280;
+}
+
+/* ==============================
+   🏷️ Section Headings
+=================================*/
+.section-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #111827;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+.section-heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #1d4ed8;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* ==============================
+   🔗 Links
+=================================*/
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+   📦 Container
+=================================*/
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* ==============================
+   ❓ FAQ Section
+=================================*/
+.faq-question {
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  padding: 1rem;
+  background-color: #e0e7ff; /* light blue */
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: background 0.3s ease;
+}
+.faq-question:hover {
+  background-color: #c7d2fe; /* hover blue */
+}
+.faq-answer {
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-left: 4px solid #1d4ed8;
+  margin-bottom: 1rem;
+}
+
+/* ==============================
+   🎚️ Scrollbar
+=================================*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1d4ed8;
+  border-radius: 4px;
+}
+
+/* ==============================
+   📱 Responsive
+=================================*/
+@media (max-width: 767px) {
+  .section-heading {
+    font-size: 1.5rem;
+  }
+}
+
+/* ==============================
+   🖼️ Banner / Hero
+=================================*/
+section.position-relative {
+  margin-bottom: 0;
+}
+section.bg-dark {
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+.hero-text {
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
+
+/* ==============================
+   🛠 Services Page
+=================================*/
+.service-card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0e7ff, #f1f5f9);
+  margin: 0 auto;
+}
+
+/* ==============================
+   📅 Appointment Form
+=================================*/
+.booking-card {
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.booking-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.form-section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1d4ed8;
+  border-left: 4px solid #1d4ed8;
+  padding-left: 10px;
+}

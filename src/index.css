@@ -1,0 +1,22 @@
+/* WhatsApp Floating Button CSS */
+.whatsapp_float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  cursor: pointer;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.whatsapp_float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp_float:focus {
+  outline: 2px solid #128C7E;
+  outline-offset: 2px;
+}

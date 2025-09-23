@@ -1,0 +1,82 @@
+/* src/styles/global.css */
+
+/* Box sizing for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 🔹 Reset basic elements */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* 🔹 Global headings */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+/* 🔹 Buttons */
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* 🔹 Inputs */
+input, select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+::placeholder {
+  color: #9ca3af;
+}
+
+/* 🔹 Links */
+a {
+  text-decoration: none;
+  color: #1e40af;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🔹 Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}

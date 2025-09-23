@@ -1,0 +1,162 @@
+/* ========================
+   Global Reset & Base
+======================== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+/* ========================
+   Navbar
+======================== */
+.navbar {
+  padding: 0.8rem 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.navbar-brand span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #080c2a;
+}
+
+/* ========================
+   Hero / Banner
+======================== */
+.hero-text {
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section img {
+  filter: brightness(65%);
+}
+
+.hero-section .btn {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* ========================
+   Cards (Services & Offers)
+======================== */
+.service-card,
+.offer-card {
+  border-radius: 14px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  border: none;
+}
+
+.service-card:hover,
+.offer-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+
+.service-card h5,
+.offer-card h5 {
+  color: #080c2a;
+  font-weight: 600;
+}
+
+.service-card p,
+.offer-card p {
+  font-size: 0.92rem;
+}
+
+/* ========================
+   Buttons
+======================== */
+.btn {
+  border-radius: 8px !important;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+}
+
+.btn-lg {
+  padding: 0.85rem 2.1rem;
+}
+
+.btn-warning {
+  background-color: #ffb400;
+  border: none;
+  color: #080c2a;
+}
+
+.btn-warning:hover {
+  background-color: #e09c00;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background: #fff;
+  color: #080c2a;
+}
+
+/* ========================
+   Footer
+======================== */
+footer {
+  background: linear-gradient(135deg, #080c2a, #0f133b);
+  color: #ddd;
+  font-size: 0.9rem;
+  padding-top: 2rem;
+}
+
+footer a {
+  color: #ffb400;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* ========================
+   WhatsApp Floating Button
+======================== */
+.btn-success {
+  background-color: #25d366 !important;
+  border: none;
+  border-radius: 50% !important;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.btn-success:hover {
+  background-color: #1ebd5a !important;
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* ========================
+   Utility
+======================== */
+.text-muted {
+  font-size: 0.9rem;
+  color: #6c757d !important;
+}
