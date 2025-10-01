@@ -10,10 +10,25 @@ Built with **React** and styled using **Tailwind CSS**, it provides customers wi
 
 ---
 
-## 📸 Screenshot
-![App Screenshot](./assets/screenshot.png)
+## 📸 Screenshots
 
-*(Add a screenshot of your homepage inside an `assets/` folder and update this path.)*
+### 🏠 Homepage
+![Homepage](./assets/homepage.png)
+
+### 🛠 Services Page
+![Services](./assets/servicepage.png)
+
+### 📅 Booking Page
+![Booking](./assets/bookpage.png)
+
+### 📞 Contact Page
+![Contact](./assets/contactpage.png)
+
+### ℹ️ About Page
+![About](./assets/aboutpage.png)
+
+### 📊 Dashboard
+![Dashboard](./assets/dashboardpage.png)
 
 ---
 
